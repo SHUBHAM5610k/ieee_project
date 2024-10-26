@@ -1,0 +1,50 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: url('https://img.freepik.com/free-photo/beautiful-woman-body-lingerie_23-2149237839.jpg?t=st=1729921066~exp=1729924666~hmac=7a1942c372e7ad5b9e82b7da2ee08707bc0d93da7d8b2b1ce42203e863d88d27&w=1060') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  
+  .app-container {
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .app-header {
+    background-color:  #A46B4D;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .app-header h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .app-footer {
+    background-color: #A46B4D;
+    padding: 10px;
+    color: #555;
+    font-size: 14px;
+  }
+  
